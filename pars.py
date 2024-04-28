@@ -41,7 +41,7 @@ def remove_unused_css(html_file, css_file):
             new_css.add(rule)
     
     # Создаем новый CSS-текст с пустыми строками между правилами
-    new_css_text = '\n\n'.join(rule.cssText for rule in new_css.cssRules)
+    new_css_text = '\n\n\n'.join(rule.cssText for rule in new_css.cssRules)
 
     # Сохраняем изменения в новом CSS файле
     with open(css_file, 'w', encoding='utf-8') as f:
