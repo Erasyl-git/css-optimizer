@@ -1,0 +1,33 @@
+.container {
+    color: red
+    }
+
+.tag-a {
+    color: firebrick
+    }
+
+#id-span {
+    color: red
+    }
+
+.tag-a, .container {
+    color: red
+    }
+
+#id-span, #id-div {
+    color: red
+    }
+
+a {
+    color: red
+    }
+
+h1 {
+    background-color: red
+    }
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: lightblue
+        }
+    }
